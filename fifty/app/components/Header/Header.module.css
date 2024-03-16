@@ -1,0 +1,46 @@
+.logoText{
+	font-size: 40px;
+	font-family: Praxis;
+	color: #2B2B2B;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ECECEC;
+	height: 98px;
+	padding: 24px 64px;
+	position: relative;
+	z-index: 99;
+}
+
+.menuElement{
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 14px;
+	color: black;
+}
+
+.menuContainer{
+	display: flex;
+	gap: 85px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.loginContainer{
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+button.login{
+	font-family: Montserrat;
+	background-color: white;
+	border: 1px solid black;
+	padding: 8px 12px;
+	border-radius: 100px;
+	font-size: 14px;
+}

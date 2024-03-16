@@ -1,0 +1,54 @@
+.backgroundImage{
+	width: 100%;
+	position: absolute;
+	top: -100px;
+	z-index: 0;
+}
+
+.pageTitle{
+	align-self: center;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 112px;
+	font-weight: 400;
+	max-width: 900px;
+	margin: 80px 0px 40px 0px;
+	color: #010101;
+	position: relative;
+	z-index: 98;
+}
+
+.pageContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cardImage{
+	height: 800px;
+	width: auto;
+	z-index: 100;
+	margin-bottom: 40px;
+}
+
+button.order{
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 12px 24px;
+	background-color: #010101;
+	color: white;
+	border: none;
+	border-radius: 100px;
+	width: 160px;
+	height: 54px;
+	z-index: 99;
+}
+
+.text{
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	z-index: 100;
+	margin-top: 8px;
+}

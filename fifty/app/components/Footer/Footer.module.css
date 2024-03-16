@@ -1,0 +1,51 @@
+.logoText{
+	font-size: 60px;
+	font-family: Praxis;
+	color: #2B2B2B;
+}
+
+.mainSection{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menuContainer{
+	display: flex;
+	gap: 60px;
+}
+
+.linksContainer{
+	display: flex;
+	gap: 16px;
+}
+
+.menuEl{
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	color: #010101;
+}
+
+.link{
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 6px 20px;
+	border-radius: 100px;
+	font-family: Montserrat;
+	color: black;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.line{
+	border: 1px solid #c7c7c7;
+	margin: 32px 0px 24px 0px;
+}
+
+.copyright{
+	font-family: Montserrat;
+	color: #9FA0A1;
+	font-size: 12px;
+	font-weight: 400;
+}
